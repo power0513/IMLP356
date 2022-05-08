@@ -1,0 +1,17 @@
+n = int(input('請輸入執行次數'))
+for i in range(n):
+    semester = input('課程期數')
+    course = input('課程名稱')
+    name = input('稱謂')
+    background = input('專業背景')
+    expection = input('短期目標')
+
+print('----------------------')
+print('第幾期','課程名稱',semester,course)
+print('姓名:', name,'.')
+print('學生背景:',background)
+print('=====結訓證明=====')
+print('恭喜',name,'修課完成[',course,']後，')
+print('結業成果獲得:',expection,'。')
+print('welldone')
+print('---------------')
